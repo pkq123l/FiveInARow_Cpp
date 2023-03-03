@@ -1,0 +1,10 @@
+﻿  CConfig.cpp
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Users\hua'wei\source\repos\五子棋\五子棋\CConfig.h(28,2): warning C4091: “typedef ”: 没有声明变量时忽略“VECTOR”的左侧
+  CInitGame.cpp
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\graphics.h(1,1): warning C4828: 文件包含在偏移 0x19d3 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Users\hua'wei\source\repos\五子棋\五子棋\CConfig.h(28,2): warning C4091: “typedef ”: 没有声明变量时忽略“VECTOR”的左侧
+  正在生成代码...
+CInitGame.obj : error LNK2005: "struct VECTOR pullBack" (?pullBack@@3UVECTOR@@A) 已经在 CConfig.obj 中定义
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\Users\hua'wei\source\repos\五子棋\x64\Debug\五子棋.exe : fatal error LNK1120: 1 个无法解析的外部命令
